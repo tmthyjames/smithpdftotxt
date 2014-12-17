@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # grabs all links containing PDFs and converts them to txt files
 
 import subprocess
@@ -7,6 +9,7 @@ from bs4 import BeautifulSoup
 from pattern.web import URL
 import logging
 import os
+
 
 url = 'http://www.txlottery.org/export/sites/lottery/Media/News_Releases'
 req = requests.get(url)
