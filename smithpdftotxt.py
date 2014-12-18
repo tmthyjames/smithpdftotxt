@@ -92,17 +92,3 @@ dictionary = dict(zip(dates, text))
 # write dict to csv
 with open('/Users/macuser/Desktop/dates&titles.csv', 'w') as f:
     [f.write('{0},{1}\n'.format(key, value)) for key, value in dictionary.items()]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
